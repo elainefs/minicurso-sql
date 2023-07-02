@@ -146,7 +146,7 @@ No menu que se abrir selecionar a pasta onde estão os arquivos do banco de dado
 
 Na caixa "Select Database Objects to Import" o nome do banco que você está importando irá aparecer, basta clicar sobre ele para selecioná-lo e clicar em "Start Import"
 
-Alguns erros podem ocorrer ao importar, como a incompatibilidade do sistema de codificação, ou após importar as tabelas não aparecerem. Para resolver esses problemas [ver o arquivo corrigir-erros.md.](/notes/corrigir-erros.md)
+Alguns erros podem ocorrer ao importar, como a incompatibilidade do sistema de codificação, ou após importar as tabelas não aparecerem. Para resolver esses problemas ver o arquivo [corrigir-erros.md.](/notes/corrigir-erros.md)
 
 ## Manipulando banco de dados
 Para começar a trabalhar em um banco de dados eu preciso informar em qual banco eu estou trabalhando antes de começar a rodar os comandos SQL.
@@ -229,12 +229,12 @@ Para aplicar filtros em tabelas temos que usar os operadores relacionais
 
 Operador | Função
 ---------|--------
-> | Maior que
-< | Menor que
->= | Maior ou igual à
-<= | Menor ou igual à
-= | Igual à
-<> | Diferente de
+`>` | Maior que
+`<` | Menor que
+`>=` | Maior ou igual à
+`<=` | Menor ou igual à
+`=` | Igual à
+`<>` | Diferente de
 
 Exemplo de Filtro de Números:
 ```sql
